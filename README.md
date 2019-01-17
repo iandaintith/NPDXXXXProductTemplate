@@ -1,5 +1,5 @@
-# NPD-3920 Fixed White MPro
-Fixed White MPro Dimmable Light
+# NPD-XXXX Product Template
+A template for EFR32MG13P Based projects (Mains Powered ZR)
 
 ## IDE 
 Simplicity Studio 4
