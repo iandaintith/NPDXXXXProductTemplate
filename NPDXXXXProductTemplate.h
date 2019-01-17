@@ -3,8 +3,8 @@
 //
 
 // Enclosing macro to prevent multiple inclusion
-#ifndef SILABS_APP_NPDXXXXProductTemplate_H
-#define SILABS_APP_NPDXXXXProductTemplate_H
+#ifndef SILABS_APP_NPDXXXXPRODUCTTEMPLATE_H
+#define SILABS_APP_NPDXXXXPRODUCTTEMPLATE_H
 
 
 /**** Included Header Section ****/
@@ -447,4 +447,4 @@
 // Custom macros
 
 
-#endif // SILABS_APP_NPDXXXXProductTemplate_H
+#endif // SILABS_APP_NPDXXXXPRODUCTTEMPLATE_H
