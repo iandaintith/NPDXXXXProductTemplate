@@ -1,0 +1,33 @@
+#file index
+.index
+
+#Simplicity Studio
+*.bak
+*.mk
+
+#Build
+*.axf
+*.bin
+*.lst
+*.o
+*.d
+*.s37
+*.hex
+*.out
+*.sim
+*.log
+*.map
+*.dep
+*.dni
+*.wsdt
+*.pbd
+*.browse
+*.ota
+*.gbl
+
+#Directories
+.settings/
+
+#Specific Files
+
+GNU ARM v4.9.3 - Default - EFR32MG13P732F512GM48/NPD3920FixedWhiteMPro-commander-convert-output.txt
