@@ -3,14 +3,14 @@
 //
 
 // Enclosing macro to prevent multiple inclusion
-#ifndef SILABS_APP_NPD3920FIXEDWHITEMPRO_H
-#define SILABS_APP_NPD3920FIXEDWHITEMPRO_H
+#ifndef SILABS_APP_NPDXXXXProductTemplate_H
+#define SILABS_APP_NPDXXXXProductTemplate_H
 
 
 /**** Included Header Section ****/
 
 /**** ZCL Section ****/
-#define ZA_PROMPT "NPD3920FixedWhiteMPro"
+#define ZA_PROMPT "NPDXXXXProductTemplate"
 #define ZCL_USING_BASIC_CLUSTER_SERVER
 #define ZCL_USING_IDENTIFY_CLUSTER_SERVER
 #define ZCL_USING_GROUPS_CLUSTER_SERVER
@@ -447,4 +447,4 @@
 // Custom macros
 
 
-#endif // SILABS_APP_NPD3920FIXEDWHITEMPRO_H
+#endif // SILABS_APP_NPDXXXXProductTemplate_H

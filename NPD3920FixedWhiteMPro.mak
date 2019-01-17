@@ -3,7 +3,7 @@ ARCHITECTURE_DIR = efr32
 BUILD_DIR = build
 OUTPUT_DIR = $(BUILD_DIR)/$(ARCHITECTURE_DIR)
 LST_DIR = lst
-PROJECTNAME = NPD3920FixedWhiteMPro
+PROJECTNAME = NPDXXXXProductTemplate
 
 # Stack and submodule directories
 GLOBAL_BASE_DIR     = ../../../platform/base/hal/..
@@ -165,7 +165,7 @@ SOURCE_FILES = \
 ../../../protocol\zigbee\app\framework\plugin\simple-main\simple-main.c \
 ../../../protocol\zigbee\app\framework\plugin\update-tc-link-key\update-tc-link-key.c \
  \
-../../../app/builder/NPD3920FixedWhiteMPro/NPD3920FixedWhiteMPro_callbacks.c \ \
+../../../app/builder/NPDXXXXProductTemplate/NPDXXXXProductTemplate_callbacks.c \ \
 
 LIB_FILES = \
  \
@@ -204,11 +204,11 @@ CDEFS = -DLOCAL_STORAGE_GECKO_INFO_PAGE_BTL \
 -DPHY_RAIL \
 -DEFR32MG13P \
 -DEFR32MG13P732F512GM48 \
--DATTRIBUTE_STORAGE_CONFIGURATION=\"app/builder/NPD3920FixedWhiteMPro/NPD3920FixedWhiteMPro_endpoint_config.h\" \
+-DATTRIBUTE_STORAGE_CONFIGURATION=\"app/builder/NPDXXXXProductTemplate/NPDXXXXProductTemplate_endpoint_config.h\" \
 -DCONFIGURATION_HEADER=\"app/framework/util/config.h\" \
--DGENERATED_TOKEN_HEADER=\"app/builder/NPD3920FixedWhiteMPro/NPD3920FixedWhiteMPro_tokens.h\" \
+-DGENERATED_TOKEN_HEADER=\"app/builder/NPDXXXXProductTemplate/NPDXXXXProductTemplate_tokens.h\" \
 -DPLATFORM_HEADER=\"platform/base/hal/micro/cortexm3/compiler/gcc.h\" \
--DZA_GENERATED_HEADER=\"app/builder/NPD3920FixedWhiteMPro/NPD3920FixedWhiteMPro.h\" \
+-DZA_GENERATED_HEADER=\"app/builder/NPDXXXXProductTemplate/NPDXXXXProductTemplate.h\" \
   -DHAL_CONFIG=1 \
   -DEMBER_AF_USE_HWCONF \
   -DEMBER_AF_API_EMBER_TYPES=\"stack/include/ember-types.h\" \
@@ -219,8 +219,8 @@ CDEFS = -DLOCAL_STORAGE_GECKO_INFO_PAGE_BTL \
   -DEMLIB_USER_CONFIG \
   -DEMBER_PARAMETERIZED_BROADCAST_TABLE \
   -DPHY_RAIL \
-  -DAPPLICATION_TOKEN_HEADER=\"app/builder/NPD3920FixedWhiteMPro/afv2-token.h\" \
-  -DAPPLICATION_MFG_TOKEN_HEADER=\"app/builder/NPD3920FixedWhiteMPro/afv2-mfg-token.h\" \
+  -DAPPLICATION_TOKEN_HEADER=\"app/builder/NPDXXXXProductTemplate/afv2-token.h\" \
+  -DAPPLICATION_MFG_TOKEN_HEADER=\"app/builder/NPDXXXXProductTemplate/afv2-mfg-token.h\" \
  \
 
 ASMDEFS = -DLOCAL_STORAGE_GECKO_INFO_PAGE_BTL \
@@ -232,11 +232,11 @@ ASMDEFS = -DLOCAL_STORAGE_GECKO_INFO_PAGE_BTL \
 -DPHY_RAIL \
 -DEFR32MG13P \
 -DEFR32MG13P732F512GM48 \
--DATTRIBUTE_STORAGE_CONFIGURATION=\"app/builder/NPD3920FixedWhiteMPro/NPD3920FixedWhiteMPro_endpoint_config.h\" \
+-DATTRIBUTE_STORAGE_CONFIGURATION=\"app/builder/NPDXXXXProductTemplate/NPDXXXXProductTemplate_endpoint_config.h\" \
 -DCONFIGURATION_HEADER=\"app/framework/util/config.h\" \
--DGENERATED_TOKEN_HEADER=\"app/builder/NPD3920FixedWhiteMPro/NPD3920FixedWhiteMPro_tokens.h\" \
+-DGENERATED_TOKEN_HEADER=\"app/builder/NPDXXXXProductTemplate/NPDXXXXProductTemplate_tokens.h\" \
 -DPLATFORM_HEADER=\"platform/base/hal/micro/cortexm3/compiler/gcc.h\" \
--DZA_GENERATED_HEADER=\"app/builder/NPD3920FixedWhiteMPro/NPD3920FixedWhiteMPro.h\" \
+-DZA_GENERATED_HEADER=\"app/builder/NPDXXXXProductTemplate/NPDXXXXProductTemplate.h\" \
   -DHAL_CONFIG=1 \
   -DEMBER_AF_USE_HWCONF \
   -DEMBER_AF_API_EMBER_TYPES=\"stack/include/ember-types.h\" \
@@ -247,8 +247,8 @@ ASMDEFS = -DLOCAL_STORAGE_GECKO_INFO_PAGE_BTL \
   -DEMLIB_USER_CONFIG \
   -DEMBER_PARAMETERIZED_BROADCAST_TABLE \
   -DPHY_RAIL \
-  -DAPPLICATION_TOKEN_HEADER=\"app/builder/NPD3920FixedWhiteMPro/afv2-token.h\" \
-  -DAPPLICATION_MFG_TOKEN_HEADER=\"app/builder/NPD3920FixedWhiteMPro/afv2-mfg-token.h\" \
+  -DAPPLICATION_TOKEN_HEADER=\"app/builder/NPDXXXXProductTemplate/afv2-token.h\" \
+  -DAPPLICATION_MFG_TOKEN_HEADER=\"app/builder/NPDXXXXProductTemplate/afv2-mfg-token.h\" \
  \
 
 CINC = -I./ \
@@ -295,7 +295,7 @@ CINC = -I./ \
   -I../../../platform/radio/rail_lib/chip/efr32 \
  \
 
-TARGET = NPD3920FixedWhiteMPro
+TARGET = NPDXXXXProductTemplate
 
 CSOURCES = $(filter %.c, $(SOURCE_FILES))
 ASMSOURCES = $(filter %.s79, $(SOURCE_FILES))

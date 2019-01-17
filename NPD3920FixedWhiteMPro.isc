@@ -16,7 +16,7 @@ GenerationDirectory:PATH(ABSOLUTE):C:\SiliconLabs\SimplicityStudio\v4\developer\
 #  identifier, as it will be used in both generated variable, macros, as well as
 #  file names. You should generally not use characters which are not valid
 #  characters in a C identifier here.
-DeviceName:NPD3920FixedWhiteMPro
+DeviceName:NPDXXXXProductTemplate
 
 #  Type of the endpoint. Each endpoint implement one endpoint type. There can be
 #  one or more endpoint types, regardless of number of actual endpoints.
@@ -285,7 +285,7 @@ compile,OTA_BOOTLOAD_CLUSTER
 lastArchitectureId=efr32~family[M]~series[1]~device_configuration[3]~performance[P]~radio[732]~flash[512K]~temp[G]~package[M]~pins[48]+gcc
 featureLevel=1
 active=true
-lastHwConfFileUsed=PATH(STACK_RELATIVE):app/builder/NPD3920FixedWhiteMPro/custom_efr32mg13p732f512gm48.hwconf
+lastHwConfFileUsed=PATH(STACK_RELATIVE):app/builder/NPDXXXXProductTemplate/custom_efr32mg13p732f512gm48.hwconf
 }
 {setupId:information
 }
@@ -317,7 +317,7 @@ useHwConfigurator=true
 simeepromSize=8192
 }
 {setupId:token
-application=PATH(ABSOLUTE):C:\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.2\app\builder\NPD3920FixedWhiteMPro\app-tokens.h
+application=PATH(ABSOLUTE):C:\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.2\app\builder\NPDXXXXProductTemplate\app-tokens.h
 }
 #  The name of the set of Command Line Interface (CLI) commands that are
 #  compiled into the application by default.

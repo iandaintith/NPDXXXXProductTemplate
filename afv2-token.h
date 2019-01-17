@@ -22,7 +22,7 @@
 #include "protocol/zigbee/app/framework/plugin/scenes/scenes-tokens.h"
 
 // Custom token header file
-#include "app/builder/NPD3920FixedWhiteMPro/app-tokens.h"
+#include "app/builder/NPDXXXXProductTemplate/app-tokens.h"
 
 #ifdef CUSTOM_TOKEN_HEADER
   #include CUSTOM_TOKEN_HEADER
